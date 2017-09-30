@@ -2,6 +2,7 @@
 
 All commands and source code from http://openjdk.java.net/projects/jigsaw/quick-start
 
+```
 mkdir oracle-example
 cd oracle-example/
 mkdir -p src/com.greetings/com/greetings
@@ -33,3 +34,4 @@ java -p mlib -m com.greetings
 jlink --module-path $JAVA_HOME/jmods:mlib --add-modules com.greetings --output greetingsapp
 cd greetingsapp/
 ./bin/java -m com.greetings
+```
