@@ -1,5 +1,4 @@
-greetingsapp/
-Dockerfile
+app/
 
 # Compiled class file
 *.class
